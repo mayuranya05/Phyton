@@ -7,4 +7,8 @@ print("The average score is", average)
 
 if average > 95 and 100 <= average:
     print("Congratulations!")
+<<<<<<< HEAD
+    print("That is a great average!")
+=======
     print("That is a great average")
+>>>>>>> c61ecf32278a6d5cbc13009ccb88bad8a46e5642
