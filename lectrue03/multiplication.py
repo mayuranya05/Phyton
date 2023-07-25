@@ -10,3 +10,4 @@ for numeric in range(27, 30+1):
 
     print(table)
     table.clear()
+    
