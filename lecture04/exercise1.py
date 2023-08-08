@@ -1,6 +1,6 @@
-first_name = input(("Enter your first name : "))
-last_name = input(("Enter your last name : "))
-student_id = input("Enter your study ID number : ")
+first_name = str(input("Enter your first name : "))
+last_name = str(input("Enter your last name : "))
+student_id = str(input("Enter your study ID number : "))
 
 system_first_name = first_name[-3::]
 system_last_name = last_name[-3::]
