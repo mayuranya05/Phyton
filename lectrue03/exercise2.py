@@ -1,5 +1,8 @@
-rows = int(input("Enter your many rows : "))
-columns = int(input("Enter your many columns : "))
+columns = int(input('How many colume? '))
 
-for number in range(1, 101):
-    square = input("Enter your many rows : ")
+for h in range(1, 101, columns):
+    for c in range(columns):
+        num = h + c
+        if num <= 100:
+         print (h + c, end=' ')
+    print()
