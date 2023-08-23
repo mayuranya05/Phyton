@@ -5,9 +5,4 @@ if num >= 0:
     else:
         print("Positive number")
 else:
-<<<<<<< HEAD
     print("Negative number")
-=======
-    print("Negative number")
-    
->>>>>>> c61ecf32278a6d5cbc13009ccb88bad8a46e5642
