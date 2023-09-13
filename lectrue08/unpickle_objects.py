@@ -10,7 +10,7 @@ def main():
             person = pickle.load(input_file)
 
             display_data(person)
-        except E0FError:
+        except EOFError:
             end_of_file = True
 
     input_file.close()
